@@ -18,11 +18,7 @@ body {
      font-family: barlow, 'Times New Roman', Times, serif;
      text-transform: uppercase;
      letter-spacing: 2px;
-     color:#EACE09;
-}
-
-h1 span {
-    background-color:#115500;
+     color:#333;
 }
 
 #logo {
@@ -60,14 +56,8 @@ h1 span {
 }
 
 /* Hero Image */
-
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    position: relative;
-}
  
-#hero {
+#hero-image {
    height: 600px;
     width:100%;
     background: url(/assets/images/home_hero.jpg);
