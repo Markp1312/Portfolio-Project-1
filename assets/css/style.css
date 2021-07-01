@@ -9,4 +9,23 @@
 body {
     font-family: Barlow,'Times New Roman', Times, serif;
     font: weight 300px;
+    color: #333
+}
+
+ /* headings and home logo */
+
+ h1, h2 {
+     font-family: barlow, 'Times New Roman', Times, serif;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     color:#EACE09;
+}
+
+h1 span {
+    background-color:#115500;
+}
+
+#logo {
+    float: left;
+    font-size: 200%
 }
