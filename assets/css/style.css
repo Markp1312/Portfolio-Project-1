@@ -12,7 +12,7 @@ body {
     color: #333
 }
 
- /* headings and home logo */
+ /* Menu and home Heading */
 
  h1, h2 {
      font-family: barlow, 'Times New Roman', Times, serif;
@@ -28,4 +28,33 @@ h1 span {
 #logo {
     float: left;
     font-size: 200%
+}
+
+#menu {
+    font-size: 125%;
+    letter-spacing: 2px;
+    background-color:#115500;
+}
+
+#menu, #logo {
+    line-height: 150px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+   }
+#menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#115500;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #333;
+}
+
+.viewing {
+    border-bottom: 2px solid #333;
 }
