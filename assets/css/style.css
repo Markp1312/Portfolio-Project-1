@@ -30,6 +30,7 @@ body {
     font-size: 125%;
     letter-spacing: 2px;
     background-color:#115500;
+    list-style-type: none;
 }
 
 #menu, #logo {
@@ -38,9 +39,9 @@ body {
 
 #menu li {
     float: right;
-    list-style-type: none;
     margin-right: 20px;
    }
+
 #menu a {
     text-transform: uppercase;
     text-decoration: none;
@@ -57,13 +58,18 @@ body {
 
 /* Hero Image */
  
-#hero-image {
-   height: 600px;
+
+#home-hero-image {
+    height: 600px;
     width:100%;
-    background: url(/assets/images/home_hero.jpg);
+    background: url(/assets/images/home_hero.jpg) center center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
-
-
+#home-hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
