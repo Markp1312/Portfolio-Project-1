@@ -23,7 +23,8 @@ body {
 
 #logo {
     float: left;
-    font-size: 200%
+    font-size: 200%;
+    padding-left: 15px;
 }
 
 #menu {
@@ -31,6 +32,7 @@ body {
     letter-spacing: 2px;
     background-color:#115500;
     list-style-type: none;
+    padding-right: 15px;
 }
 
 #menu, #logo {
@@ -60,7 +62,7 @@ body {
  
 
 #home-hero-image {
-    height: 600px;
+    height: 400px;
     width:100%;
     background: url(/assets/images/home_hero.jpg) center center;
     background-size: 100% 100%;
@@ -68,7 +70,7 @@ body {
 }
 
 #home-hero-outer {
-    height: 600px;
+    height: 400px;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -83,14 +85,15 @@ body {
 /* Block Left top */
 
 #top-left-block {
-    padding: 25px;
-    width: 35%;
+    padding-top: 25px;
+    width: 40%;
     float:left;
 }
 
 #top-left-block-heading {
     border-bottom: 2px;
     border-color: #333;
+    font-size: 150%;
 }
 
 hr {
@@ -100,12 +103,27 @@ hr {
 /* Block right top */
 
 #top-right-block {
-    padding: 25px;
-    width:35%;
-    float: right;
+    padding-top: 25px;
+    padding-left: 10px;
+    margin-left: 20px;
+    width:55%;
+    float: left;
 }
 
-#top-right-block-heading {
+
+img {
+    max-width:75%;
+    max-height:75%;
+}
+
+#bottom-left-block {
+    padding-top: 25px;
+    width: 40%;
+    float:left;
+}
+
+#bottom-left-block-heading {
     border-bottom: 2px;
     border-color: #333;
+    font-size: 150%;
 }
