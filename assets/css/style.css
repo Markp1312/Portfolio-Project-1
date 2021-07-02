@@ -70,6 +70,36 @@ body {
 #home-hero-outer {
     height: 600px;
     width: 100%;
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
+}
+
+/* Why visiting Falcarragh section */
+
+#visit-top-block {
+    height:600px;
+}
+
+/* Block Left top */
+
+#top-left-block {
+    padding: 25px;
+    width: 50%;
+    float:left;
+}
+
+#top-left-block-heading {
+    border-bottom: 2px;
+    border-color: #333;
+}
+
+hr {
+    border-top: 2px solid #333;
+    margin: 5px 0;
+}
+
+#top-right-block {
+    padding: 50px;
+    width:50%;
+    float: right;
 }
