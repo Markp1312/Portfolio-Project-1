@@ -76,54 +76,33 @@ body {
     overflow: hidden;
 }
 
-/* Why visiting Falcarragh section */
+/*Home Section */
 
-#visit-top-block {
-    height:600px;
-}
-
-/* Block Left top */
-
-#top-left-block {
-    padding-top: 25px;
-    width: 40%;
-    float:left;
-}
-
-#top-left-block-heading {
-    border-bottom: 2px;
-    border-color: #333;
-    font-size: 150%;
+#welcome-falcarragh {
+    height: 600px;
 }
 
 hr {
-    border-top: 2px solid #333;
-    margin: 5px 0;
+    margin:10px;
+    width:100%;
 }
-/* Block right top */
 
-#top-right-block {
-    padding-top: 25px;
-    padding-left: 10px;
-    margin-left: 20px;
-    width:55%;
+#left-section {
+    padding-top: 30px;
+    width: 49%;
     float: left;
 }
 
-
-img {
-    max-width:75%;
-    max-height:75%;
+.left-section-heading {
+    width: 100%;
+    margin-left: 10px;
+    line-height: 20px;
+    clear:both;
+    font-size: 110%;
 }
 
-#bottom-left-block {
-    padding-top: 25px;
-    width: 40%;
-    float:left;
-}
-
-#bottom-left-block-heading {
-    border-bottom: 2px;
-    border-color: #333;
-    font-size: 150%;
+#right-section {
+    padding-top: 30px;
+    width: 49%;
+    float: right;
 }
