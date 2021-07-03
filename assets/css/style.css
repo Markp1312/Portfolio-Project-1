@@ -89,16 +89,17 @@ hr {
 
 #left-section {
     padding-top: 30px;
-    width: 49%;
+    width: 48%;
     float: left;
 }
 
 .left-section-heading {
-    width: 100%;
-    margin-left: 10px;
+    width: 50%;
+    margin-left: 40px;
+    padding: 10px;
     line-height: 20px;
     clear:both;
-    font-size: 110%;
+    font-size: 125%;
 }
 
 #right-section {
