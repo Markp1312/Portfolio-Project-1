@@ -135,3 +135,24 @@ hr {
     width: 49%;
     float: right;
 }
+
+ /* Footer */
+
+ footer {
+     height: 150px;
+ }
+
+ .social-networks {
+     text-align: center;
+ }
+
+ .social-networks > li {
+     display: inline;
+ }
+
+ .social-networks i {
+     font-size: 175%;
+     margin: 1%;
+     padding: 5%;
+     color: #333;
+ } 
