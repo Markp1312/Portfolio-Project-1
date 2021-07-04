@@ -107,3 +107,37 @@ hr {
     width: 49%;
     float: right;
 }
+
+
+ /* Bottom Section */
+
+#home-bottom {
+    height: 600px;
+}
+
+#right-bottom-area {
+    padding-top: 30px;
+    width: 48%;
+    float: left;
+}
+
+.right-bottom-heading {
+    width: 50%;
+    margin-left: 40px;
+    padding: 10px;
+    line-height: 20px;
+    clear:both;
+    font-size: 125%;
+}
+
+#right-bottom-area {
+    padding-top: 30px;
+    width: 49%;
+    float: right;
+}
+
+#left-bottom-area {
+    padding-top: 30px;
+    width: 49%;
+    float: right;
+}
