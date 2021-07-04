@@ -115,12 +115,6 @@ hr {
     height: 600px;
 }
 
-#right-bottom-area {
-    padding-top: 30px;
-    width: 48%;
-    float: left;
-}
-
 .right-bottom-heading {
     width: 50%;
     margin-left: 40px;
@@ -131,7 +125,7 @@ hr {
 }
 
 #right-bottom-area {
-    padding-top: 30px;
+    padding-top: 10px;
     width: 49%;
     float: right;
 }
