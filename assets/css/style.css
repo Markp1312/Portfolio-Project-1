@@ -41,6 +41,7 @@ body {
 
 #menu li {
     float: right;
+    display: inline;
     margin-right: 20px;
    }
 
@@ -156,3 +157,5 @@ hr {
      padding: 5%;
      color: #333;
  } 
+
+ 
