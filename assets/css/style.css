@@ -158,4 +158,13 @@ hr {
      color: #333;
  } 
 
+ #pictures {
+     clear:both;
+     line-height:0;
+     column-count: 5;
+     column-gap: 2px;
+ }
  
+ #pictures > img {
+     width:100%
+ }
