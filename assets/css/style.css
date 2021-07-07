@@ -168,3 +168,20 @@ hr {
  #pictures > img {
      width:100%
  }
+
+ /* History Hero Image */
+ 
+#history-hero-image {
+    height: 400px;
+    width:100%;
+    background: url(/assets/images/raychurch.jpg) center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#history-hero-outer {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
